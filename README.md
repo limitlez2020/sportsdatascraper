@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sports Web Scrapper
 
-## Getting Started
+A sports web scraper built during a weekend hackathon by a team of four. The web app allows users to input a link to any player's profile on the ESPN website, and it returns detailed information about the player, including their name, age, and game statistics.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Sports Web Scrapper was developed to provide quick and easy access to player information from ESPN. By simply entering a player's URL, users can retrieve comprehensive details about the athlete, making it a valuable tool for sports enthusiasts, analysts, and fans alike. The project was built using a robust tech stack to ensure quick development and smooth deployment.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Player Information Retrieval**:
+  - Input a link to an ESPN player profile and retrieve key details such as name, age, and game stats.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **User-Friendly Interface**:
+  - The web app features an intuitive UI, making it easy for users to navigate and extract the information they need.
 
-## Learn More
+- **Quick Development and Deployment**:
+  - Utilized shadcn/ui for rapid development and deployed the app on Vercel for seamless accessibility.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **React**: For building the user interface.
+- **Node.js**: For backend processing and handling the scraping logic.
+- **Next.js**: For server-side rendering and API routes.
+- **Tailwind CSS**: For styling the web application.
+- **Heroicons**: For adding sleek icons to the interface.
+- **shadcn/ui**: For accelerating the development process.
+- **Vercel**: For deploying the application and ensuring it is accessible online.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+Link: https://sportsdatascraper.vercel.app/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Input ESPN Player Link**: Users can enter the URL of any player profile from the ESPN website into the search field on the web app by clicking the demo button.  
+- **Retrieve Player Data**: Once the link is submitted, the web app will display important details about the player, including their name, age, and relevant game statistics.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Authors
+
+- David Fortune Akinremi (moi 🙈)
+- **Team Members**:
+  - Vivian Zhou (https://github.com/vivianzhou1288)
+  - Debadrita Chakraborty (https://github.com/Debadrita08)
+  - Ralph Stout (https://github.com/CodeByRalph)
+
